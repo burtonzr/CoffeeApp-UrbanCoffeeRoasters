@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Urban Coffee Roasters</string>
+    <string name="menu">Menu</string>
+    <string name="shop">Shop</string>
+    <string name="contact">Contact</string>
+    <string name="login">Login</string>
+    <string name="Signup">Sign Up</string>
+    <string name="home">Home</string>
+    <string name="placeorder">Place Order</string>
+
+    <string-array name="milks">
+        <item>Almond Milk</item>
+        <item>Oat Milk</item>
+        <item>Soy Milk</item>
+        <item>Whole Milk</item>
+    </string-array>
+
+    <string-array name="sizes">
+        <item>Small</item>
+        <item>$0.50 - Medium</item>
+        <item>$1.00 - Large</item>
+    </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginbackground">
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/Signup"
+        android:textColor="@color/loginButtonText"
+        android:textSize="34dp"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:id="@+id/signup_title"/>
+
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/signup_name"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Name"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_below="@id/signup_title"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Email"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_below="@id/signup_name"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/signup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:hint="Username"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_below="@+id/signup_email"/>
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_below="@+id/signup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/signup_confirm_password"
+        android:layout_below="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/input_shape"
+        android:padding="15dp"
+        android:hint="Confirm Password"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_below="@+id/signup_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/Signup"
+        android:textColor="@color/loginButtonText"
+        android:background="@drawable/btn_shape"/>
+</RelativeLayout>
